@@ -14,7 +14,7 @@ bool CsvRow_init(CsvRow* csv_row) {
 
     csv_row->columns = malloc(1 * sizeof(char*));
 
-    if(csv_row == NULL)
+    if(csv_row->columns == NULL)
         return false;
     return true;
 
