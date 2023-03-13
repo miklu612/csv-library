@@ -73,7 +73,7 @@ bool CsvReader_load(Csv* csv, char* path) {
         }
     }
 
-    // The Csv has ownership so we can just do this instead
+ 
     CsvRow_free(&row);
 
     free(text);
