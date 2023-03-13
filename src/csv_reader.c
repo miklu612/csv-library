@@ -35,10 +35,6 @@ char* read_file(char* path) {
 
 bool CsvReader_load(Csv* csv, char* path) {
 
-    (void) csv;
-    (void) path;
-
-
     char* text = read_file(path);
     if(text == NULL) return false;
 
